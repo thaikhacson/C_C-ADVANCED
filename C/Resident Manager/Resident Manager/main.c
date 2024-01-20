@@ -7,7 +7,7 @@ int main() {
     extern TreeNode* root;
 
     const char* filename = "MyFile.csv";
-    FILE* file = fopen(filename, "r");
+    FILE* file = fopen(filename, "w");
 
     if (file == NULL) {
         printf("Error opening file!\n");
